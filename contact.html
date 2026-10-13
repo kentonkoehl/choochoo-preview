@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Service Request | What&rsquo;s Going On? | Choo Choo Rooter</title>
+<meta name="description" content="Tell Choo Choo Rooter what is wrong, how urgent it is, and send a photo. Or call (423) 355-0001, open 24/7.">
+<meta name="theme-color" content="#D21F2B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&amp;family=Barlow:wght@400;600;700&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<div class="ribbon" role="note"><div class="wrap"><strong>Sample</strong>Sample redesign. Not affiliated with Choo Choo Rooter, not their live website.</div></div>
+<header class="site-head">
+<div class="wrap head-row">
+<a class="brand" href="index.html" aria-label="Choo Choo Rooter, home"><span class="w1">CHOO CHOO</span><span class="w2">ROOTER</span><span class="w3">Drain cleaning &middot; Plumbing &middot; Septic</span></a>
+<a class="head-phone" href="tel:+14233550001"><small>Open 24/7</small>(423) 355-0001</a>
+</div>
+<div class="rails" aria-hidden="true"></div>
+</header>
+<nav class="main-nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Get help</a></li></ul></nav>
+<main id="main">
+
+<section class="page-hero">
+<div class="wrap">
+<h1>What&rsquo;s going on?</h1>
+<p>Tell the crew what it is and how bad, add a photo if you can, and leave a number. <strong>Water coming up right now? Don&rsquo;t fill out a form.</strong> Call <a href="tel:+14233550001">(423) 355-0001</a>, open 24/7.</p>
+</div>
+</section>
+
+<section class="sec" id="request">
+<div class="wrap">
+<p class="sent" id="sent" role="status">Got it. In the live version, this goes straight to Choo Choo Rooter&rsquo;s phone and they call you back.</p>
+<div class="form">
+<form action="contact.html#sent" method="get" aria-label="Service request">
+
+<fieldset>
+<legend>The problem</legend>
+<p class="help">Pick the closest one.</p>
+<div class="picker"><label class="pick" id="p-drain"><input type="radio" name="problem" value="Clogged drain"><span><b>Clogged drain</b><small>Sink, tub, shower, toilet</small></span></label><label class="pick" id="p-sewer"><input type="radio" name="problem" value="Sewer backing up"><span><b>Sewer backing up</b><small>Coming up in the tub or floor drain</small></span></label><label class="pick" id="p-heater"><input type="radio" name="problem" value="Water heater"><span><b>Water heater</b><small>No hot water, leaking, pilot out</small></span></label><label class="pick" id="p-septic"><input type="radio" name="problem" value="Septic trouble"><span><b>Septic trouble</b><small>Slow, smelly, wet yard, alarm</small></span></label><label class="pick" id="p-leak"><input type="radio" name="problem" value="Leak or burst pipe"><span><b>Leak or burst pipe</b><small>Under the house, in a wall, the yard</small></span></label><label class="pick" id="p-other"><input type="radio" name="problem" value="Something else"><span><b>Something else</b><small>Sump pump, disposal, fixtures</small></span></label></div>
+</fieldset>
+
+<fieldset>
+<legend>How bad is it?</legend>
+<div class="chips urgency">
+<label class="chip hot"><input type="radio" name="urgency" value="Water is coming up or running right now"><span>Water is coming up or running right now</span></label>
+<label class="chip"><input type="radio" name="urgency" value="Need it today"><span>Need it today</span></label>
+<label class="chip"><input type="radio" name="urgency" value="This week is fine"><span>This week is fine</span></label>
+<label class="chip"><input type="radio" name="urgency" value="Just want a quote or a second opinion"><span>Just a quote or a second opinion</span></label>
+</div>
+<p class="help hot-note">If water is coming up right now, <a href="tel:+14233550001">call (423) 355-0001</a> instead. It is faster.</p>
+</fieldset>
+
+<fieldset>
+<legend>About the place</legend>
+<fieldset class="field"><legend class="lbl">Septic tank or city sewer?</legend>
+<div class="chips">
+<label class="chip"><input type="radio" name="system" value="Septic tank"><span>Septic tank</span></label>
+<label class="chip"><input type="radio" name="system" value="City sewer"><span>City sewer</span></label>
+<label class="chip"><input type="radio" name="system" value="Not sure"><span>Not sure</span></label>
+</div></fieldset>
+<fieldset class="field"><legend class="lbl">What kind of place?</legend>
+<div class="chips">
+<label class="chip"><input type="radio" name="type" value="Home"><span>Home</span></label>
+<label class="chip"><input type="radio" name="type" value="Rental I own"><span>Rental I own</span></label>
+<label class="chip"><input type="radio" name="type" value="Business"><span>Business</span></label>
+</div></fieldset>
+<div class="field"><label for="f-addr">Street address and town</label><input type="text" id="f-addr" name="address" autocomplete="street-address"></div>
+</fieldset>
+
+<fieldset>
+<legend>A photo <span class="opt">(optional)</span></legend>
+<p class="help" id="photo-help">The backed-up drain, the leak, the water heater label, the wet spot in the yard. A phone photo helps them bring the right parts.</p>
+<div class="field"><label for="f-photo">Choose a photo</label><input type="file" id="f-photo" name="photo" accept="image/*" aria-describedby="photo-help"></div>
+<label class="check"><input type="checkbox" name="video" value="yes"><span>A video call is fine if it helps them see it first (FaceTime or similar)</span></label>
+</fieldset>
+
+<fieldset id="quote">
+<legend>Got a quote from someone else? <span class="opt">(optional)</span></legend>
+<div class="field"><label for="f-quote">What did they say it was, and what did they quote?</label><textarea id="f-quote" name="other_quote" placeholder="Said the whole septic system needs replacing, quoted ..."></textarea></div>
+</fieldset>
+
+<fieldset>
+<legend>You</legend>
+<div class="field"><label for="f-name">Name</label><input type="text" id="f-name" name="name" autocomplete="name" required></div>
+<div class="two">
+<div class="field"><label for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel" required></div>
+<div class="field"><label for="f-email">Email <span class="opt">(optional)</span></label><input type="email" id="f-email" name="email" autocomplete="email"></div>
+</div>
+<div class="field"><label for="f-notes">Anything else? <span class="opt">(optional)</span></label><textarea id="f-notes" name="notes" placeholder="Gurgles when the washer drains, best time to call, gate code"></textarea></div>
+<label class="check"><input type="checkbox" name="discount" value="veteran or senior"><span>I&rsquo;m a veteran or senior (10% off)</span></label>
+</fieldset>
+
+<div><button class="btn" type="submit">Send to Choo Choo Rooter</button></div>
+</form>
+
+<aside class="form-side" aria-labelledby="side-h">
+<h2 id="side-h">Rather call?</h2>
+<a class="phone-big" href="tel:+14233550001">(423) 355-0001</a>
+<p>Open 24/7. 24/6 with live response on Sundays.</p>
+<p>430 Retro Hughes Rd., Sale Creek<br><a href="mailto:choochoorooter@gmail.com">choochoorooter@gmail.com</a></p>
+<figure class="rev side-rev"><blockquote><p>&ldquo;Phillip showed up within 30min of call and found the problem quickly.&rdquo;</p></blockquote><figcaption><strong>Bryan Bakken</strong>, Google review, 11 months ago</figcaption></figure>
+</aside>
+</div>
+</div>
+</section>
+
+</main>
+<a class="callbar" href="tel:+14233550001" aria-label="Call Choo Choo Rooter at (423) 355-0001"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>(423) 355-0001 <small>Tap to call, 24/7</small></a>
+<footer class="site-foot">
+<div class="rails" aria-hidden="true"></div>
+<div class="wrap">
+<div class="foot-grid">
+<div><p class="foot-brand"><span class="w1">CHOO CHOO</span> <span class="w2">ROOTER</span></p><p>Drain cleaning, plumbing and septic. Serving Chattanooga and the surrounding areas from Sale Creek.</p></div>
+<div><h2>Call or write</h2><address>430 Retro Hughes Rd.<br>Sale Creek, Tennessee 37373</address><p><a href="tel:+14233550001">(423) 355-0001</a><br><a href="mailto:choochoorooter@gmail.com">choochoorooter@gmail.com</a></p></div>
+<div><h2>Hours</h2><p>Open 24/7.<br>24/6 with live response on Sundays.</p><ul><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Get help</a></li></ul></div>
+</div>
+<p class="foot-note">Sample redesign. Not affiliated with Choo Choo Rooter, not their live website. Services, hours and the veterans and seniors discount are taken from Choo Choo Rooter&rsquo;s own website. Reviews are quoted word for word from Google. Photos are the ones Choo Choo Rooter posted on its Google profile.</p>
+</div>
+</footer>
+</body>
+</html>
